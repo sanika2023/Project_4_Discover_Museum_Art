@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fdf6f0;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background-color: #fff3e0;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.attributes {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 10px;             
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.attribute-button {
+  background-color: #e0a800;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+
+
+.banned-button {
+  background-color: #c0392b;
+  color: white;
+  padding: 6px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.discover-button {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
+
+.ban-list {
+  margin-top: 2rem;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.attribute-button:hover {
+  transform: scale(1.05);
+}
+
+img
+{
+  max-width: 300px;
+  max-height: 400px;
+
+}
